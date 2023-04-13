@@ -45,6 +45,14 @@ footer {
     background-color: burlywood;
 }
 
+#userEmail {
+    background-color: aquamarine;
+}
+
+span {
+    color: red;
+}
+
 /* Footer */
 
 .rSocial {
