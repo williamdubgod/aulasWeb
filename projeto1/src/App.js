@@ -1,4 +1,5 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Api from './components/Api';
 import Contato from './components/Contato';
 import Empresa from './components/Empresa';
 import Footer from './components/Footer';
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/empresa' element={<Empresa/>}/>
         <Route path='/Contato' element={<Contato/>}/>
+        <Route path='/api' element={<Api/>}/>
       </Routes>
     <Footer />
     </BrowserRouter>
