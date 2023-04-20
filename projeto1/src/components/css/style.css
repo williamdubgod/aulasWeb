@@ -1,7 +1,7 @@
 #menu {
     width: 100%;
     height: 70px;
-    background-color: brown;
+    background-image: linear-gradient(to right, rgb(149, 0, 255), bisque);
     text-align: center;
     line-height: 70px;
 }

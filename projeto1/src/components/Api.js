@@ -1,5 +1,6 @@
 import React from "react"
 import { useForm } from "react-hook-form"
+import './css/api.css'
 
 export default function Api() {
 
@@ -37,7 +38,7 @@ export default function Api() {
             <label>Cidade:<input type="text"{...register("cidade")}/></label>
             <label>Estado:<input type="text"{...register("estado")}/></label>
 
-            <button type="submit" id="enviar">Enviar</button>
+            <button type="submit" id="enviar">Enviar</button> <br />
         </form>
     )
 }

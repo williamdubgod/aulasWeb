@@ -18,6 +18,9 @@ export default function Nav() {
                 <li>
                     <Link to="/api">API</Link>
                 </li>
+                <li>
+                    <Link to="/api2">API 2</Link>
+                </li>
             </ul>
         </div>
     )
